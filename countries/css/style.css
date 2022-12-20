@@ -1,0 +1,68 @@
+
+.body1 {
+    background:  #F0F0F0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.h1t{
+    margin: 0.5rem auto;
+    letter-spacing: 0.25rem;
+    color: #ffa500;
+    font-weight: 600;
+}
+
+.subtitle1{
+    color: #555;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.country{
+    /* height: 380px; */
+}
+
+.cflag{
+    height: 12rem;
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+}
+
+.crow img{
+    max-width: 75%;
+    max-height: 75%;
+    min-width: 75%;
+    min-width: 75%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.6rem 0.2rem rgb(241 225 225);
+    margin : 24px auto;
+    display: block;
+}
+
+.h3t{
+    color : #ffa500;
+    font-size: 1.6rem;
+    color: #ffa500;
+    letter-spacing: 0.075rem;
+    font-weight: bolder;
+}
+
+.cinfo{
+    color: #747474;
+}
+
+.card{
+    border-radius: 0.2rem;
+}
+
+.card:hover{
+    box-shadow: 0 0.1rem 1rem #cfc9c7;
+    transform: scale(1.015);
+    transition: all 0.2s ease-in;
+}
